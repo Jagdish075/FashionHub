@@ -1,0 +1,12 @@
+{
+  "name": "mega-project",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix backend run start",
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend run start",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "lint:frontend": "npm --prefix frontend run lint"
+  }
+}

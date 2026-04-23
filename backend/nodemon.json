@@ -1,0 +1,11 @@
+{
+  "watch": ["server.js", "config", "controllers", "middleware", "models", "routes", "services"],
+  "ext": "js,json",
+  "ignore": [
+    ".mongodb-data/**",
+    "node_modules/**",
+    "node_modules.bak/**",
+    "uploads/**",
+    "*.log"
+  ]
+}
